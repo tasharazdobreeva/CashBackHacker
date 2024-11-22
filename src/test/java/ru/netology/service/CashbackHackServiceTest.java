@@ -1,4 +1,4 @@
-package ru.netology.CashBackHacker;
+package ru.netology.service;
 
 import static org.junit.Assert.assertEquals;
 
