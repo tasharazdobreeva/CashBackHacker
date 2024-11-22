@@ -1,5 +1,7 @@
 package ru.netology.CashBackHacker;
 
+import org.testng.annotations.Test;
+
 import static org.testng.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
@@ -10,7 +12,7 @@ public class CashbackHackServiceTest {
         int amount = 1000;
         int actual = service.remain(amount);
         int expected = 0;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @org.testng.annotations.Test
