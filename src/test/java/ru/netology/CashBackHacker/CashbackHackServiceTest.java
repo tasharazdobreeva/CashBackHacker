@@ -1,6 +1,6 @@
 package ru.netology.CashBackHacker;
 
-import static org.testng.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
 
